@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+*{margin:0;padding:0;box-sizing:border-box;font-family:'Playfair Display',serif;scrollbar-width:none}
+:root{--primary-color:#FF8B8B;--text-color:#333;--background-color:#FFF}
+body{background-color:#fff9f4;color:#333;padding:10px;overflow-x:hidden}
+header{padding:3.5vh;background-color:#fff;box-shadow:rgba(231,228,228,.25) 0 54px 55px,rgba(243,240,240,.12) 0 -12px 30px,rgba(0,0,0,.12) 0 4px 6px,rgba(245,244,244,.17) 0 12px 13px,rgba(240,237,237,.09) 0 -3px 5px;border-radius:1vw}
+header nav{display:flex;justify-content:space-between;align-items:center}
+nav .logo{display:flex;font-size:1.5vw;font-weight:800;align-items:center;gap:.5vh}
+nav .logo img{height:5vh}
+nav .nav-icon>ul>li>i{font-size:4vh}
+nav ul{display:flex;gap:4.5vh;list-style-type:none}
+nav ul li a{text-decoration:none;color:#333;font-weight:700;font-size:3.3vh}
+.hero{display:flex;justify-content:space-between;align-items:center;padding:2rem 5%;height:calc(100vh - 80px)}
+.hero-content{flex:1;max-width:50%}
+.hero-content h1{font-size:4rem;font-weight:900;margin-bottom:1rem}
+h1 span{color:var(--primary-color)}
+p{font-size:1.2rem;line-height:1.6;margin-bottom:2rem}
+.hero-buttons{display:flex;gap:1rem}
+.btn,.perfume-landing button,.product-btnandcart button,.pages button{padding:.75rem 1.5rem;border-radius:10px;text-decoration:none;font-weight:700;font-size:1.3rem;transition:all .3s ease}
+.btn-primary{background-color:var(--primary-color);color:var(--background-color)}
+.btn-secondary{border:2px solid var(--text-color);color:var(--text-color);background:0 0}
+.btn-secondary:hover{background-color:var(--primary-color);color:var(--background-color);border:2px solid var(--primary-color)}
+.hero-image{flex:1;display:flex;justify-content:center;align-items:center}
+.hero-image img{max-width:70%;height:auto;object-fit:cover}
+.perfume-landing{display:flex;align-items:center;gap:10vh;justify-content:center}
+.image-gallery{display:flex;gap:50px;margin-right:40px}
+.image-gallary-1{display:flex;flex-direction:column;gap:3vh}
+.image-gallary-2{display:flex;justify-content:center;align-items:center}
+.image-gallery img{width:220px;height:300px;object-fit:contain;box-shadow:0 4px 20px rgba(0,0,0,.1)}
+.perfume-landing .content{max-width:500px;display:flex;flex-direction:column;gap:2vh}
+.perfume-landing h1{font-size:36px;font-weight:700}
+.highlight{color:#e47a72}
+.perfume-landing button{border:none;background-color:#e47a72;color:#fff;font-size:2.4vh}
+button:hover{background-color:#d76461}
+.container-product{display:flex;flex-direction:column;align-items:center;margin-top:7vh}
+.container-product h1,h2{text-align:center;color:#333;font-size:7vh}
+.product-container{display:flex;gap:10vh;margin-top:20px}
+.product{display:flex;flex-direction:column;gap:3vh;align-items:center;border:1px solid #ddd;border-radius:5px;padding:20px 20px 24vw;background-color:#fff;height:27vw;width:26vw}
+.product-btnandcart{display:flex;gap:7vh;align-items:center}
+.container-product img{width:170px;border-radius:5px}
+.product-btnandcart button{background-color:#0056b3;color:#fff;padding:1.4vh 2vh;border:none;margin-bottom:5vh}
+.product-btnandcart p{font-size:5vh}
+.pages{margin-top:8vh;display:flex;gap:3vh}
+.pages button{border:none;background-color:#e47a72be;cursor:pointer}
+.perfumes-story{margin-top:8vh}
+.feedback-pages{display:flex;justify-content:center;width:100vw;margin:20vh 0 10vh;align-items:center}
+.feedback-image{flex:.5;display:flex;justify-content:center;align-items:center}
+.user{display:flex;justify-content:center;flex-direction:column;padding:0 20px;height:450px;box-shadow:rgba(0,0,0,.19) 0 10px 20px,rgba(0,0,0,.23) 0 6px 6px;width:500px;gap:3vh}
+.user>div{display:flex;gap:5vh}
+.user div h3{margin-top:4vh}
+.user-dp{height:100px;width:100px;border-radius:50%;background-color:#d76461}
+.user-dp img{height: 100%;width: 100%;object-fit: cover; border-radius: 50%; object-position: fill;}
+.feedback-content{flex:.5}
+.feedback-content div{width:70%;display:flex;flex-direction:column;gap:3vh;justify-content:center;align-items:center;padding:20px}
+.social-container{max-width:1300px;margin:0 auto 10vh}
+.social-container .header{text-align:center;margin-bottom:40px}
+.social-container h1{font-size:2.5rem;margin-bottom:10px}
+.social-container h1 span{color:#ff9999}
+.social-container .subtitle{color:#666;font-size:1rem}
+.social-container .image-grid{display:flex;flex-wrap:wrap;justify-content:center;gap:20px}
+.social-container .image-item{flex-basis:calc(50% - 10px);max-width:calc(24% - 10px)}
+.social-container .image-item img{width:100%;height:auto;object-fit:cover;aspect-ratio:1/1}
+.footer{background-color:#fff;padding:10px 20px;display:flex;width:100%;justify-content:space-around;align-items:center}
+.footer-column{width:200px;margin-bottom:20px}
+.logo{display:flex;align-items:center;font-size:1.5rem;font-weight:700;margin-bottom:10px}
+.logo-icon{color:#ff6b6b;margin-right:10px}
+.logo-text{color:#333}
+.logo-highlight{color:#ff9999}
+.social-icons{font-size:1.5rem;margin-top:10px}
+.social-icons a{color:#333;margin-right:10px;text-decoration:none}
+.newsletter-form{display:flex;margin-top:10px}
+.newsletter-form input{flex-grow:1;padding:10px;border:1px solid #ddd;border-right:none}
+.newsletter-form button{padding:10px 20px;background-color:#ff9999;color:#fff;border:none;cursor:pointer}
+.footer-column h3{margin-bottom:15px;font-size:1.2rem}
+.footer-column p{margin-bottom:10px;color:#666;font-size:.9rem}
